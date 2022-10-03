@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
     "start": "npm run lite",
     "lite-codec": "lite-server -c codec-config.json",
     "start-codec": "npm run lite-codec",
@@ -13,7 +14,8 @@
   "author": "Dustin Piercy",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "node-sass": "^6.0.1"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
